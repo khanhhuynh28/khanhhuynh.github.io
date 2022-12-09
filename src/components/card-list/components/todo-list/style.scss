@@ -1,0 +1,22 @@
+.todo-list{
+    display: flex;
+    .number{
+        font-size: 25px;
+        text-align: center;
+    }
+    .todo-list-image{
+        img{
+            width: 300px;
+            margin-right: 50px;
+        }
+    }
+    .todo-list-title{
+        font-size: 24px;
+    };
+    .todo-list-author{
+        .todo-list-author-color{
+            color: rgb(219, 222, 34);
+        }
+    };
+    .todo-list-content{};
+}
