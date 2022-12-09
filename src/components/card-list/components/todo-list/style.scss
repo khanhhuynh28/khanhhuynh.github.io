@@ -1,8 +1,11 @@
 .todo-list{
     display: flex;
     .number{
-        font-size: 25px;
-        text-align: center;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 50px;
     }
     .todo-list-image{
         img{
