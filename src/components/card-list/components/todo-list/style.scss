@@ -12,6 +12,58 @@
             width: 250px;
             margin-right: 50px;
         }
+        .todo-list-icon{
+            position: absolute;
+            display: flex;
+            .icon-messenger{
+                position: relative;
+                background-image: url("../img/1486506276-message-chat-comment-inbox-conversation-chatting-bubble_81480.png");
+                background-size: cover;
+                width: 15px;
+                left: 190px;
+                top: -63px;
+            };
+            .num-messenger{
+                position: relative;
+                color: white;
+                margin-left: 5px;
+                left: 195px;
+                top: -63px;
+                font-size: 13px;
+            };
+            .icon-eye{
+                position: relative;
+                background-image: url("../img/view_watch_eye_icon_131255.png");
+                background-size: cover;
+                width: 15px;
+                left: 190px;
+                top: -45px;
+            };
+            .num-eye{
+                position: relative;
+                color: white;
+                margin-left: 5px;
+                left: 190px;
+                top: -44px;
+                font-size: 13px;
+            };
+            .icon-time{
+                position: relative;
+                background-image: url("../img/6_122643.png");
+                background-size: cover;
+                width: 15px;
+                left: 190px;
+                top: -28px;
+            };
+            .num-time{
+                position: relative;
+                color: white;
+                margin-left: 5px;
+                left: 190px;
+                top: -25px;
+                font-size: 13px;
+            };
+        };
     }
     .todo-list-title{
         font-size: 24px;

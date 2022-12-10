@@ -4,6 +4,7 @@ import "./style.scss";
 const todoList = [
     {
         number: "1",
+        icon: ".",
         image: "https://thuthuatnhanh.com/wp-content/uploads/2020/12/hinh-anh-dep-xuat-sac-nhat-viet-nam-2020.jpg",
         title: "Family Safari Vacation To The Home Of The Gods",
         author: "Noman Clark",
@@ -39,6 +40,7 @@ export function CardList() {
                     <TodoList
                         number={list.number}
                         image={list.image}
+                        icon={list.icon}
                         title={list.title}
                         author={list.author}
                         content={list.content}
